@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Study Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f6fa;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+    }
+    img {
+      margin-top: 20px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 3px solid #4a90e2;
+    }
+    h1 {
+      margin: 10px 0;
+    }
+    section {
+      margin: 40px auto;
+      max-width: 600px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #4a90e2;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 10px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background: #eee;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📘 My Study Resources</h1>
+    <p>Notes & Question Papers</p>
+  </header>
+
+  <!-- Profile Photo -->
+  <img src="myphoto.jpg" alt="My Photo">
+
+  <!-- Notes Section -->
+  <section>
+    <h2>📂 Notes</h2>
+    <ul>
+      <li><a href="math-notes.pdf" target="_blank">Mathematics Notes (PDF)</a></li>
+      <li><a href="physics-notes.pdf" target="_blank">Physics Notes (PDF)</a></li>
+    </ul>
+  </section>
+
+  <!-- Question Papers Section -->
+  <section>
+    <h2>📝 Question Papers</h2>
+    <ul>
+      <li><a href="question-paper-2024.pdf" target="_blank">Question Paper 2024</a></li>
+      <li><a href="question-paper-2023.pdf" target="_blank">Question Paper 2023</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 My Study Website | Made with ❤️
+  </footer>
+</body>
+</html>
